@@ -10,8 +10,8 @@ let isAdult = function(howYearsOld) {
     return "Вы несовершеннолетние!";
   }
 }
- 
 isAdult(15);
+
 
 //2.Создать функцию checkMultiplicity, которая принимает два числа и проверяет кратность первого вторым
 function checkMultiplicity (num1, num2){
@@ -22,8 +22,8 @@ function checkMultiplicity (num1, num2){
     return false;
   }
 }
-
 checkMultiplicity(25, 5);
+
 
 //3. Проверка возможности треугольника.
 function checkSideTriiangle (A, B, C){
@@ -36,6 +36,7 @@ function checkSideTriiangle (A, B, C){
 }
 
 checkSideTriiangle (10, 15, 30);
+
 
 //4. Написать функции расчета площадей (поверхности) следующих фигур/тел: ромб, цилиндр, треугольника, прямоугольника
 //ромб
